@@ -10,7 +10,12 @@ class Cat {
 };
 
 class Dog {
-
+  constructor(name, sex) {
+    this.name = name;
+    this.sex = sex;
+  }
+  speak() {
+    return `${this.name} says woof!`
 }
 
 class Bird {
