@@ -28,7 +28,7 @@ constructor(name, sex) {
     if (this.sex == "male") {
       return `It's me! ${this.name}, the parrot!`
     } else {
-      return ${this.name} say squawk!
+      return `${this.name} say squawk!`
     }
   }
 };
